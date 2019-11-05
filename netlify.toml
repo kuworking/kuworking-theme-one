@@ -2,8 +2,3 @@
 publish = "public/"
 command = "gatsby build"
 
-[[redirects]]
-  from = "https://kuworking-theme-blog-one.netlify.com"
-  to   = "https://themes.kuworking.com/blog-one"
-  status = 301
-  force = true
