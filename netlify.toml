@@ -5,5 +5,5 @@ command = "gatsby build"
 [[redirects]]
   from = "https://kuworking-theme-blog-one.netlify.com"
   to   = "https://themes.kuworking.com/blog-one"
-  status = 301
+  status = 200
   force = true
