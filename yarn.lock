@@ -6053,19 +6053,19 @@ gatsby-telemetry@^1.1.35:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-kuworking-blog@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-kuworking-blog/-/gatsby-theme-kuworking-blog-0.1.1.tgz#86c17569ace71aae60579f4272d90373925ab2e4"
-  integrity sha512-uH2SzshEZsq1S4kBqIu8rEoD66vK9cwTk5KfOTjAp3zDAFasO/A0G4EaXSznZmI5Il31EbpForEU63Ybh09b3w==
+gatsby-theme-kuworking-blog@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-kuworking-blog/-/gatsby-theme-kuworking-blog-0.1.3.tgz#9a37fb5bbcdf5fa0eaceae38e506f0c70f20dddf"
+  integrity sha512-CvfditFlKNs92UsVZx/9FauQBEISnl5WNLp6XKQ6bULuR4anhH+4ZTxmILQERU9JarOXV6Zrm1jrYERxbBwpwg==
   dependencies:
     "@mdx-js/react" "^1.3.1"
     deepmerge "^4.0.0"
-    gatsby-theme-kuworking-core "^0.1.1"
+    gatsby-theme-kuworking-core "^0.1.3"
 
-gatsby-theme-kuworking-core@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-kuworking-core/-/gatsby-theme-kuworking-core-0.1.1.tgz#b18d9690ba5d78f4fc7cd6186572b42488243d78"
-  integrity sha512-ua1VAof20cBKiiM18b9LKBoSX8KIu6sb39IL9QyKBSPy8MOs7B62XZHvbs+J0fBaDud2hb5l3f4lah8T3X3jiw==
+gatsby-theme-kuworking-core@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-kuworking-core/-/gatsby-theme-kuworking-core-0.1.3.tgz#b825156938c4875aaa8c14a68cb6d3ada0c514da"
+  integrity sha512-ozUYEi2wuCjM76OFmgxRJRnalN4NBqZN2Bpk0c+g4IGXRr1H6hjwyFRK9jCc5mlFSFI6AyP+h1136UtygY+IMw==
   dependencies:
     "@emotion/core" "^10.0.21"
     "@emotion/styled" "^10.0.17"
