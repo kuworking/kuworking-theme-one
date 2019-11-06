@@ -6053,10 +6053,10 @@ gatsby-telemetry@^1.1.35:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-kuworking-blog@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-kuworking-blog/-/gatsby-theme-kuworking-blog-0.1.4.tgz#084ab9d5d476b4daacb24aab42c65484e036f7f4"
-  integrity sha512-jytzp8X6mPJT1vfcqqiFRDyEw7P9EKmoX1UOr60D+OVyP3y8Zm6aO/s/4AuneG00KzJf5HGMhdSo4/438vvX4g==
+gatsby-theme-kuworking-blog@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-kuworking-blog/-/gatsby-theme-kuworking-blog-0.1.5.tgz#9723eee0d986bd743933a484b33521dfe8fdc483"
+  integrity sha512-8AS52h0RQRossFlN02TVqCvgpjH62bfk8CjOy+YqYRWZQADHP/z5de4ua9uhZ7sDe266S8cnahADhoVFgTT4yg==
   dependencies:
     "@mdx-js/react" "^1.3.1"
     deepmerge "^4.0.0"
