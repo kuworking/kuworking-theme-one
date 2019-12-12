@@ -1,8 +1,8 @@
-# KUWORKING THEME BLOG ONE
+# KUWORKING THEME ONE
 
 ### Gatsby Themes by kuworking.com
 
-Based on `gatsby-theme-kuworking-blog` -> `gatsby-theme-kuworking-core`
+Based on `gatsby-theme-kuworking-one` -> `gatsby-theme-kuworking-core`
 
 [Demo](https://kuworking-theme-blog-one.netlify.com/)
 
@@ -25,8 +25,8 @@ More themes on [themes.kuworking.com](https://themes.kuworking.com)
 
 ## Usage
 
-- `gatsby new blog-one https://github.com/kuworking/kuworking-theme-blog-one`
-- `cd ew blog-one`
+- `gatsby new one https://github.com/kuworking/kuworking-theme-one`
+- `cd ew one`
 - `gatsby develop`
 
 And explore your site at `http://localhost:8000`

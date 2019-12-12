@@ -25,7 +25,7 @@ export const Config = {
   },
   disqus: 'kuworking',
   disqus_url: 'https://www.kuworking.com',
-  mail_chimp_action: 'https://gmail.us20.list-manage.com/subscribe/post?u=7679f6806268867998475ecb8&amp;id=d0543eb54f',
+  mail_chimp_action: '',
 }
 
 export const Text = {
@@ -37,7 +37,7 @@ export const Text = {
     comments: 'Click and drop a comment',
   },
   header: {
-    site: 'kuworking THEME BLOG ONE',
+    site: 'kuworking THEME ONE',
     logo: 'KW',
   },
   cta: {
@@ -52,7 +52,7 @@ export const Text = {
     credits: 'by kuworking.com',
     credits_url: 'https://www.kuworking.com',
     // prettier-ignore
-    date: () => <>[ 2018 - {new Date().getFullYear()} - kuworking ]</>,
+    date: () => <>[ {new Date().getFullYear()} >> kuworking ]</>,
     cookies: () => <>Notice that we use cookies to improve the usability of this site</>,
     cookies_agree: 'Ok',
   },
