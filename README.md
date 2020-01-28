@@ -1,32 +1,49 @@
-# KUWORKING THEME ONE
+# Gatsby THEME ONE — by kuworking
 
-### Gatsby Themes by kuworking.com
+This is the starter of Gatsby kuworking THEME ONE, which itself uses the kuworking [THEME CORE](https://github.com/kuworking/gatsby-theme-kuworking-core)
 
-Based on `gatsby-theme-kuworking-one` -> `gatsby-theme-kuworking-core`
-
-[Demo](https://kuworking-theme-blog-one.netlify.com/)
-
-More themes on [themes.kuworking.com](https://themes.kuworking.com)
+You can find the demo of the theme [here](https://www.kuworking.com/themes/one) and other themes by kuworking [here](https://www.kuworking.com/themes)
 
 ## Characteristics
 
-- MDX
-- Theme-UI with 4 color modes
-- Typography
-- @Emotion
+- Posts based on MDX
+- Uses theme-UI
+- Posts with tags and pagination (if desired)
 - Google Tag Manager
-- RSS Feed
-- SiteMap
+- RSS feed
+- Sitemap
+- Progressive Web Application
 - Robots.txt
-- Offline
-- Cookie Consent
+- Manifest
+- SEO
+- Cookie consent
+- Providers for google maps, instagram, pinterest, youtube, highlight.js, codepen
+- Components for lazy loading of images (including different versions for desktop and mobile) 
 - Disqus
-- Mail Chimp
+- MailChimp
+
+## Relevant Dependencies
+
+- @emotion
+- @mdx-js
+- gatsby-image
+- gatsby-plugin-feed
+- gatsby-plugin-google-tagmanager
+- gatsby-plugin-manifest
+- gatsby-plugin-mdx
+- gatsby-plugin-offline
+- gatsby-plugin-robots-txt
+- gatsby-plugin-sharp
+- gatsby-plugin-sitemap
+- react-cookie-consent
+- react-helmet
+- react-share
+- theme-ui
 
 ## Usage
 
 - `gatsby new one https://github.com/kuworking/kuworking-theme-one`
-- `cd ew one`
+- `cd new one`
 - `gatsby develop`
 
 And explore your site at `http://localhost:8000`
@@ -35,9 +52,11 @@ And explore your site at `http://localhost:8000`
 
 - Posts are stored in `./content/posts` and have the structure `2019.10.05.my-first-post.mdx`
 - The first _date_ part is necessary and is useful to sort files by date in the file explorer
+- The post image is stored in `./content/posts/images` and has the structure of `my-first-post.jpg`, this is, the same name than the post except the _date_ part
 
-- Post images are stored in `./content/posts/images` and have the structure `my-first-post.jpg`, this is, the same name than the post except the _date_ part
+## How to add a post?
 
+The easiest way is to modify or copy-paste the post example and follow its structure
 
 ## Folders
 
@@ -70,3 +89,5 @@ Files that you may want to modify
 |─ package.json // edit this file to change the name of your package, description, repository and if it is public or private
 |─ README.md // this file you are reading now
 ```
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kuworking/kuworking-theme-one)
