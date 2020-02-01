@@ -1,6 +1,6 @@
 {
   "name": "kuworking-theme-one",
-  "version": "0.1.39",
+  "version": "0.1.41",
   "description": "kuworking-theme-one",
   "author": "kuworking.com",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "gatsby": "2.15.15",
-    "gatsby-theme-kuworking-one": "^0.1.37",
+    "gatsby-theme-kuworking-one": "^0.1.39",
     "react": "16.11.0",
     "react-dom": "16.11.0"
   },
@@ -32,7 +32,8 @@
     "build": "gatsby build",
     "serve": "gatsby clean && gatsby build && gatsby serve",
     "net": "gatsby develop -H 192.168.1.100",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "netlify": "git push https://github.com/kuworking/comidaketo.git master:netlify --force"
   },
   "gitHead": "8a025c30d3d4a89df7532e12622afd7ec1c9710c"
 }
